@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.0"
+   width="256"
+   height="256"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.46"
+   sodipodi:docname="Hoeffler H.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape">
+  <metadata
+     id="metadata2388">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     inkscape:window-height="723"
+     inkscape:window-width="645"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     guidetolerance="10.0"
+     gridtolerance="10.0"
+     objecttolerance="10.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base"
+     showgrid="false"
+     inkscape:zoom="1.9296875"
+     inkscape:cx="128"
+     inkscape:cy="128"
+     inkscape:window-x="682"
+     inkscape:window-y="25"
+     inkscape:current-layer="svg2" />
+  <defs
+     id="defs4">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 128 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="256 : 128 : 1"
+       inkscape:persp3d-origin="128 : 85.333333 : 1"
+       id="perspective2390" />
+  </defs>
+  <path
+     style="font-size:200px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:HoeflerText;-inkscape-font-specification:HoeflerText"
+     d="M 208.39297,199.30039 C 208.39297,197.70039 207.59297,196.70039 206.79297,196.50039 C 187.39299,194.30039 185.99297,189.90038 185.99297,179.70039 L 185.99297,85.500391 C 185.99297,75.100401 187.39299,70.900388 206.79297,68.500391 C 207.59297,68.500391 208.39297,67.300389 208.39297,65.700391 C 208.39297,64.300392 207.59297,62.900391 206.79297,62.900391 C 193.39298,62.900391 188.19296,64.100391 175.79297,64.100391 C 163.39298,64.100391 159.79296,62.900391 146.59297,62.900391 C 145.59297,62.900391 144.99297,64.300392 144.99297,65.700391 C 144.99297,67.300389 145.59297,68.500391 146.59297,68.500391 C 165.99295,70.900388 165.59297,75.100401 165.59297,85.500391 L 165.59297,128.70039 L 89.192969,128.70039 L 89.192969,85.500391 C 89.192969,75.100401 88.792988,70.900388 108.19297,68.500391 C 109.19297,68.500391 109.79297,67.300389 109.79297,65.700391 C 109.79297,64.300392 109.19297,62.900391 108.19297,62.900391 C 94.992982,62.900391 91.392956,64.100391 78.992969,64.100391 C 66.592981,64.100391 61.192956,62.900391 47.992969,62.900391 C 47.19297,62.900391 46.392969,64.300392 46.392969,65.700391 C 46.392969,67.300389 47.19297,68.500391 47.992969,68.500391 C 67.392949,70.900388 68.792969,75.100401 68.792969,85.500391 L 68.792969,179.70039 C 68.792969,189.90038 67.392949,194.30039 47.992969,196.50039 C 47.19297,196.70039 46.392969,197.70039 46.392969,199.30039 C 46.392969,200.90039 47.19297,202.10039 47.992969,202.10039 C 61.192956,202.10039 66.592981,200.90039 78.992969,200.90039 C 91.392956,200.90039 94.992982,202.10039 108.19297,202.10039 C 109.19297,202.10039 109.79297,200.90039 109.79297,199.30039 C 109.79297,197.70039 109.19297,196.70039 108.19297,196.50039 C 88.792988,194.30039 89.192969,189.90038 89.192969,179.70039 L 89.192969,135.10039 L 165.59297,135.10039 L 165.59297,179.70039 C 165.59297,189.90038 165.99295,194.30039 146.59297,196.50039 C 145.59297,196.70039 144.99297,197.70039 144.99297,199.30039 C 144.99297,200.90039 145.59297,202.10039 146.59297,202.10039 C 159.79296,202.10039 163.39298,200.90039 175.79297,200.90039 C 188.19296,200.90039 193.39298,202.10039 206.79297,202.10039 C 207.59297,202.10039 208.39297,200.90039 208.39297,199.30039"
+     id="text2392" />
+</svg>

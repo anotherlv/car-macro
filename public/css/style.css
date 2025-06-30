@@ -1,0 +1,141 @@
+.radio_st {line-height: 24px;}
+.radio_st span {position:relative;}
+.radio_st span:last-child {margin-left:10px;}
+.radio_st span input {position:absolute; left:0; top:0; width:1px; height:1px; opacity:0; visibility:hidden;}
+.radio_st span label {display:inline-block; padding-left:25px; background:url("../images/radio_off.png") no-repeat left center;}
+.radio_st span input[type="radio"]:checked + label {background:url("../images/radio_on.png") no-repeat left center;}
+
+
+
+.form-group .img_div_wrap {overflow:hidden;}
+.form-group .img_span_wrap {float:left; margin-right: 15px;}
+.form-group .ul_img {float:left; overflow:hidden; padding-left:0;}
+.form-group .ul_img .img {width: 100%; height: 100%; background-color: #f7f7f7;}
+.form-group .ul_img li {position:relative; list-style:none; float:left; width:150px; height:100px; line-height:120px; text-align:center; overflow:hidden; margin-right:15px;}
+.form-group .ul_img li i {font-size: 24px; background-color: #fff; border-radius: 50%;}
+.form-group .ul_img li:last-child {margin-right:0; }
+.form-group .ul_img li img {display: block; width:100%; height:100%; object-fit: contain; }
+.form-group .btn_delete {position:absolute; right:7px; top:7px; width:24px; height:24px; line-height:1;}
+.form-group .btn_delete a {cursor: pointer;}
+.form-group .img_file { width:0; height:0; overflow:hidden; }
+.form-group .text_area { width:100%; height:120px;}
+.form-group .text_row { padding: 0.375rem 0.75rem;}
+
+
+.form-group input[type="file"] {display:none;}
+
+
+.modal .modal-body .category_wrap {text-align:center;}
+.modal .modal-body .category_wrap ul li input {width:85% !important; float:left;}
+.modal .modal-body .chk_wrap {position:relative;}
+.modal .modal-body .chk_wrap input[type="checkbox"] {position:absolute; left:0; top:0; width:1px; height:1px; opacity:0; visibility:hidden;}
+.modal .modal-body .chk_wrap label {display:inline-block; font-size:14px; color:#000; font-weight:normal; padding-left:30px; line-height:20px; background:url("../../admin/images/chk_off.png") no-repeat left center;}
+.modal .modal-body .label_input { width: 65%;}
+.modal .modal-body .label_input input { width: 100%;}
+.modal .modal-body .chk_wrap input[type="checkbox"]:checked + label {background:url("../../admin/images/chk_on.png") no-repeat left center;}
+.modal .modal-body .depth_wrap {display:inline-block; vertical-align:top; font-size:0;}
+.modal .modal-body .depth_inner {display:inline-block; vertical-align:top; font-size:0; border:1px solid #ccc; margin-right:50px;}
+.modal .modal-body .depth_inner1 {width: 400px;}
+.modal .modal-body .depth_inner .top {width:100%; height:30px; line-height:30px; font-size:14px; font-weight:600; background:#eee; margin:0; border-bottom:1px solid #ccc; text-align:center;}
+.modal .modal-body .depth_inner ul {height:300px; overflow-x:hidden; overflow-y:auto; padding:7px 20px; text-align:left;}
+.modal .modal-body .depth_inner ul li {margin:7px 0;}
+.modal .modal-body .depth_inner ul li a {font-size:14px; color:#333;}
+.modal .modal-body .depth_inner ul li.active a {font-size:15px; color:#000; font-weight:600;}
+
+.modal .modal-body .right {display:inline-block; vertical-align:top;}
+.modal .modal-body .add_category .title {display:block; font-size:20px; font-weight:600; text-align:left;}
+.modal .modal-body .add_category > * {display:inline-block; vertical-align:top;}
+.modal .modal-body .add_category .write {}
+.modal .modal-body .add_category .write input {width:300px;}
+.modal .modal-body .add_category button {}
+
+.hide{ display:none; }
+
+.order_form { padding:10px; margin-bottom:15px; border:1px dotted #e9e9e9;}
+.colorpicker_wrap {width: 10%; height: calc(2.25rem + 2px); border: 1px solid #000; float:left; padding: 1px; }
+.colorpicker_wrap .color_input { width:0px !important; height:0px !important; padding:0px !important; flex:0 !important; }
+.colorpicker_wrap .color_div { background-color:#000; width:100%; height:100%;}
+
+
+.gage_wrap {position: relative; width: 100%; height: 22px; border: 1px solid #2796ff;}
+.gage_wrap .bar {position: absolute; top: 0; left: 0; background: #2796ff; height: 100%;}
+.gage_wrap .num {position: absolute; top: 0; left: 0; text-align: center; width: 100%; height: 100%; line-height: 18px; font-weight: 600;}
+
+.file_download_form{ width:100%; cursor:pointer;}
+.file_download_form .input-group-text {border-radius: 0 !important;}
+.file_download_form .fas {margin-right:5px;}
+
+.paging_wrap {display: flex; flex-wrap: wrap; justify-content: center; text-align:center; margin-top:30px; }
+.paging_wrap ul {font-size:0; padding: 0 !important;}
+.paging_wrap ul li {display:inline-block; vertical-align:top; margin:0 2.5px; width:35px; height:35px; border:1px solid #ccc;}
+.paging_wrap ul li a {display:block; width:100%; height:100%; font-size:16px; color:#666666; font-weight:300; line-height:33px;}
+.paging_wrap ul li.active {background:#337ab7; border:1px solid #000;}
+.paging_wrap ul li.active a {color:#fff;}
+.paging_wrap ul li.first a {line-height:31px;}
+.paging_wrap ul li.prev {margin-right:10px;line-height:31px;}
+.paging_wrap ul li.prev a {line-height:31px;}
+.paging_wrap ul li.next {margin-left:10px;line-height:31px;}
+.paging_wrap ul li.next a {line-height:31px;}
+.paging_wrap ul li.last a {line-height:31px;}
+
+.radio_wrap {display: flex; align-items: center; flex-wrap: wrap; justify-content: space-evenly;}
+.radio_radius input[type='radio'] {display: none;}
+.radio_radius input[type='radio'] + label {display: inline-block; cursor: pointer; padding: 10px 50px; text-align: center; font-weight: bold; font-size: 14px; border-radius: 20px;}
+.radio_radius input[type='radio'] + label {border: 2px solid #ccc; background-color: #f9f9f9; color: #ccc; -webkit-user-select: none !important; -moz-user-select: -moz-none !important; -ms-user-select: none !important; user-select: none !important;}
+.radio_radius input[type='radio']:checked + label {border: 2px solid #007bff; background-color: #f9f9f9; color: #333; -webkit-user-select: none !important; -moz-user-select: -moz-none !important; -ms-user-select: none !important; user-select: none !important;}
+
+.search_wrap {justify-content: center; padding-bottom: 50px;}
+.search_wrap tbody tr th {background-color: #f4f4f5;}
+
+.btn_arrow_wrap { display: flex; flex-wrap: wrap; justify-content: space-evenly }
+.btn_arrow_wrap > button { width: 30px; height: 30px; border: 1px solid #000; border-radius: 50%;}
+
+.tab-wrap .tab-menu {padding: unset !important;}
+.tab-wrap .tab-menu ul li {border-right: 1px solid #eee;}
+.tab-wrap.examine_wrap .tab-menu ul li a {cursor: pointer; width: 60px; height: 45px; text-align: center; line-height: 28px;}
+.tab-wrap.result_wrap .tab-menu ul li a {cursor: pointer; width: 85px; height: 45px; text-align: center; line-height: 28px;}
+.tab-wrap.statistics_wrap .tab-menu ul li {width: 20%;}
+.tab-wrap.statistics_wrap .tab-menu ul li a {cursor: pointer; width: 100%; height: 45px; text-align: center; line-height: 28px;}
+.tab-wrap .tab-content .tab-item {display: none;}
+.tab-wrap .tab-content .tab-item.active {display: block;}
+.tab-wrap .tab-content .tab-item .fr {float: right;}
+.answer_add_wrap button {width: 100%;}
+
+
+.setting_wrap {text-align:center; padding-bottom: 20px;}
+.setting_wrap .depth_wrap {display:inline-block; vertical-align:top; font-size:0;}
+.setting_wrap .depth_inner {display:inline-block; vertical-align:top; width: 550px; font-size:0; border:1px solid #ccc; margin-right:50px; background-color: #fff; margin-bottom: 20px;}
+.setting_wrap .depth_inner .top {width:100%; height:30px; line-height:30px; font-size:14px; font-weight:600; background:#eee; margin:0; border-bottom:1px solid #ccc; text-align:center;}
+.setting_wrap .depth_inner ul {height:530px; overflow-x:hidden; overflow-y:auto; padding:7px 20px; text-align:left; margin-bottom: 0;}
+.setting_wrap .depth_inner ul li {margin:7px 0;}
+.setting_wrap .depth_inner ul li a {font-size:14px; color:#333;}
+.setting_wrap .depth_inner ul li.active a {font-size:14px; color:#000; font-weight:600;}
+.setting_wrap .depth_inner ul li {border-bottom: 1px solid #d2d6de;}
+
+.setting_wrap .chk_wrap {position:relative;}
+.setting_wrap .chk_wrap input[type="checkbox"] {position:absolute; left:0; top:0; width:1px; height:1px; opacity:0; visibility:hidden;}
+.setting_wrap .chk_wrap label {display:inline-block; font-size:14px; color:#000; font-weight:normal; padding-left:30px; line-height:20px; background:url("/public/admin/images/chk_off.png") no-repeat left center; cursor: pointer;}
+.setting_wrap .chk_wrap input[type="checkbox"]:checked + label {background:url("/public/admin/images/chk_on.png") no-repeat left center;}
+.setting_wrap .label_input { width: 60%;}
+.setting_wrap .label_input input { width: 100%;}
+.setting_wrap .input_wrap { width: 60%; display:inline-block; font-size:14px; color:#000; font-weight:normal; line-height:20px; margin-bottom: 0.5rem;}
+.setting_wrap .input_wrap input { width: 100%; }
+.setting_wrap .btn_wrap { float: right; margin-left: 12px;}
+.setting_wrap .btn_wrap > a { line-height: 25px;}
+.setting_wrap .radio_wrap { float: right;}
+.setting_wrap .radio_wrap div {position:relative; line-height: 25px; padding-right: 10px;}
+.setting_wrap .radio_wrap div:last-child {margin-left:10px;}
+.setting_wrap .radio_wrap div input {position:absolute; left:0; top:0; width:1px; height:1px; opacity:0; visibility:hidden;}
+.setting_wrap .radio_wrap div label {display:inline-block; line-height: unset; padding-left:25px; background:url("/public/admin/images/radio_off.png") no-repeat left center; margin-bottom: unset; cursor: pointer;}
+.setting_wrap .radio_wrap div input[type="radio"]:checked + label {background:url("/public/admin/images/radio_on.png") no-repeat left center; margin-bottom: unset;}
+
+.setting_wrap .right {display:inline-block; vertical-align:top; width: 450px; margin-bottom: 20px;}
+.setting_wrap .add_form {padding-bottom: 30px;}
+.setting_wrap .add_form .title {display:block; font-size:20px; font-weight:600; text-align:left;}
+.setting_wrap .add_form > * {display:inline-block; vertical-align:top;}
+.setting_wrap .add_form .write input {width:360px; margin-right: 15px;}
+.setting_wrap .add_form .btn {width: 70px;}
+
+.only_text{ display: block; padding: 0.375rem 0.75rem; font-size: 1rem; height: calc(2.25rem + 2px); line-height: 1.5; }
+.comment_list {border: 1px solid #ced4da; padding: 10px; border-radius: 5px; margin-bottom: 15px;}
+.comment_list .comment {min-height: 50px; padding: 10px; border: 1px solid #eee; border-radius: 5px; margin-top: 10px;}
