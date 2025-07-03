@@ -24,7 +24,7 @@
     </div>
 </div>
 <script>
-    const socket        = new WebSocket("<?=$this->config->item("api_web_socket")?>");
+    const socket        = new WebSocket("<?=$this->config->item("api_gui_socket")?>");
     const log_messages  = document.getElementById("log_messages");
 
     socket.onopen = () => {
