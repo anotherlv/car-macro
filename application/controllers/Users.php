@@ -17,7 +17,6 @@ class Users extends CI_Controller{
     }
 
     function index(){
-        $this->data["member_type"]          = 1;
         $this->data["tot_row"]              = $this->m_users->selectUsersCount();
         $this->data["tot_page"] 	        = ceil($this->data["tot_row"]  /  $this->data["size"] );
         $this->data["cur_num"]              = $this->data["tot_row"] - $this->data["size"] * ($this->data['cur_page'] - 1);

@@ -168,6 +168,16 @@
                     </li>
                 </ul>
             </nav>
+            <nav class="mt-2">
+                <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="true">
+                    <li class="nav-item <?=$this->common->adminMenuOpen("ai")?>">
+                        <a href="/ai" class="nav-link <?=$this->common->adminSubMenuActive("ai", array("index", "index"))?>">
+                            <i class="nav-icon fa-solid fa-layer-group"></i>
+                            <p>AI 파인튜닝</p>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
             <!-- /.sidebar-menu -->
         </div>
         <!-- /.sidebar -->
