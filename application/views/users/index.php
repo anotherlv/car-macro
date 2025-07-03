@@ -120,7 +120,7 @@
                                     <?foreach( $result as $rows ):?>
                                         <tr>
                                             <td><?=$cur_num--;?></td>
-                                            <td><a href="/users/detail?idx=<?=$rows["idx"]?>"><?=$rows["name"]?></a></td>
+                                            <td><?=$rows["name"]?></td>
                                             <td>
                                                 <button type="button" name="insurance_btn" data-user_idx="<?=$rows["idx"]?>" data-type="directdb" class="btn <?=!empty($rows["directdb_total_price"]) ? "btn-secondary" : "btn-primary"?> mr15">계산하기</button>
                                             </td>
