@@ -48,13 +48,13 @@ class Ai extends CI_Controller{
             $F_result   += $rows["F"];
             $G_result   += $rows["G"];
         }
-        $A_result       = $A_result > 0 ? $A_result + mt_rand(100000, 300000) : 0;
-        $B_result       = $B_result > 0 ? $B_result + mt_rand(100000, 300000) : 0;
-        $C_result       = $C_result > 0 ? $C_result + mt_rand(100000, 300000) : 0;
-        $D_result       = $D_result > 0 ? $D_result + mt_rand(100000, 300000) : 0;
-        $E_result       = $E_result > 0 ? $E_result + mt_rand(100000, 300000) : 0;
-        $F_result       = $F_result > 0 ? $F_result + mt_rand(100000, 300000) : 0;
-        $G_result       = $G_result > 0 ? $G_result + mt_rand(100000, 300000) : 0;
+        $A_result       = $A_result > 0 ? $A_result + mt_rand(300000, 500000) : 0;
+        $B_result       = $B_result > 0 ? $B_result + mt_rand(300000, 500000) : 0;
+        $C_result       = $C_result > 0 ? $C_result + mt_rand(300000, 500000) : 0;
+        $D_result       = $D_result > 0 ? $D_result + mt_rand(300000, 500000) : 0;
+        $E_result       = $E_result > 0 ? $E_result + mt_rand(300000, 500000) : 0;
+        $F_result       = $F_result > 0 ? $F_result + mt_rand(300000, 500000) : 0;
+        $G_result       = $G_result > 0 ? $G_result + mt_rand(300000, 500000) : 0;
 
         $A_result       = number_format($A_result / $result_cnt);
         $B_result       = number_format($B_result / $result_cnt);
