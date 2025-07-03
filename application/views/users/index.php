@@ -178,7 +178,6 @@
             </div>
             <div class="card-body" style="text-align: center;">
                 <button type="button" class="btn btn-secondary b-close">취소</button>
-                <button type="button" class="btn btn-primary register_btn" onclick="">등록하기</button>
             </div>
         </div>
     </div>
